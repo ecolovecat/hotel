@@ -2,7 +2,7 @@
 include 'backendPHP/validateFormContact.php';
 include "header.php";
 if ($checkErr == false) {
-    $conn = new PDO("mysql:host=localhost;dbname=databasehotel", "root", "");
+    $conn = new PDO("mysql:host='remotemysql.com';dbname='PimgXVSliM", 'PimgXVSliM', 'A9pVXuDbPV');
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $querry = "select * from customer

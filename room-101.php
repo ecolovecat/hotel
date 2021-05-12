@@ -5,7 +5,7 @@ if (!session_id()) session_start(); ?>
     <div class="row">
         <div class="col-md-9">
             <?php
-            $conn = new mysqli("localhost", "root", "", "databasehotel");
+            $conn = new mysqli("remotemysql.com", "PimgXVSliM", "", "PimgXVSliM");
             $sql = "SELECT * FROM roomtype WHERE typeId = 01 ";
             $result = $conn->query($sql);
             $row = $result->fetch_assoc();

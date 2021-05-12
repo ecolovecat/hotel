@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-9">
             <?php
-            $conn = new mysqli("localhost", "root", "", "databasehotel");
+             $conn = new mysqli("remotemysql.com", "PimgXVSliM", "A9pVXuDbPV", "PimgXVSliM");
             $sql = "SELECT * FROM roomtype WHERE typeId = 03 ";
             $result = $conn->query($sql);
             $row = $result->fetch_assoc();

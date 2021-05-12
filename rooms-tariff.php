@@ -5,6 +5,7 @@
     <h2>Rooms & Tariff</h2>
 
 
+
     <!-- form -->
 
     <div class="row">
@@ -12,7 +13,7 @@
             <div class="rooms"><img src="images/photos/8.jpg" class="img-responsive">
                 <div class="info">
                     <?php
-                    $conn = new mysqli("localhost", "root", "", "databasehotel");
+                    $conn = new mysqli("remotemysql.com", "PimgXVSliM", "A9pVXuDbPV", "PimgXVSliM");
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
@@ -54,7 +55,7 @@
             <div class="rooms"><img src="images/photos/9.jpg" class="img-responsive">
                 <div class="info">
                     <?php
-                    $conn = new mysqli("localhost", "root", "", "databasehotel");
+                    $conn = new mysqli("remotemysql.com", "PimgXVSliM", "A9pVXuDbPV", "PimgXVSliM");
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
@@ -97,7 +98,7 @@
             <div class="rooms"><img src="images/photos/10.jpg" class="img-responsive">
                 <div class="info">
                     <?php
-                    $conn = new mysqli("localhost", "root", "", "databasehotel");
+                    $conn = new mysqli("remotemysql.com", "PimgXVSliM", "A9pVXuDbPV", "PimgXVSliM");
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
@@ -140,7 +141,7 @@
             <div class="rooms"><img src="images/photos/11.jpg" class="img-responsive">
                 <div class="info">
                     <?php
-                    $conn = new mysqli("localhost", "root", "", "databasehotel");
+                    $conn = new mysqli("remotemysql.com", "PimgXVSliM", "A9pVXuDbPV", "PimgXVSliM");
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }

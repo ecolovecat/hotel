@@ -1,9 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "remotemysql.com";
+$username = "PimgXVSliM";
+$password = "A9pVXuDbPV";
 try {
-  $conn = new PDO("mysql:host=$servername;dbname=databasehotel", $username, $password);
+  $conn = new PDO("mysql:host=$servername;dbname='PimgXVSliM'", $username, $password);
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   //load table 
